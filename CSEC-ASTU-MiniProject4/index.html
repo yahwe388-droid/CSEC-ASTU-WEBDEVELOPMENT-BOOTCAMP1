@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-tasks"></i> Todo List App</h1>
+        </header>
+        
+        <main class="app-body">
+            <section class="input-section">
+                <input type="text" class="todo-input" placeholder="What needs to be done?">
+                <button class="add-btn" id="addTodoBtn">
+                    <i class="fas fa-plus"></i> Add Todo
+                </button>
+            </section>
+            
+            <section class="stats-section">
+                <div class="stat-box">
+                    <div class="stat-value" id="totalTodos">0</div>
+                    <div class="stat-label">Total Tasks</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value" id="completedTodos">0</div>
+                    <div class="stat-label">Completed</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value" id="pendingTodos">0</div>
+                    <div class="stat-label">Pending</div>
+                </div>
+            </section>
+            
+            <button class="clear-all-btn" id="clearAllBtn">
+                <i class="fas fa-trash-alt"></i> Clear All Todos
+            </button>
+            
+            <section class="todos-section">
+                <h2><i class="fas fa-list-check"></i> Your Todos</h2>
+                
+                <div class="empty-state" id="emptyState">
+                    <i class="fas fa-clipboard-list"></i>
+                    <h3>No tasks yet</h3>
+                    <p>Add a todo using the input field above to get started!</p>
+                </div>
+                
+                <ul class="todos-list" id="todosList">
+                </ul>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Todo List App &copy; 2025 | DOM Manipulation Project | Tasks are saved in your browser</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
