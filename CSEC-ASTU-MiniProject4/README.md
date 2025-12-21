@@ -1,76 +1,39 @@
-📝 Todo List App
-A sleek, interactive todo application with persistent storage and smooth animations!
+📝 Todo List Application
 
-🚀 Features
-✅ Core Features
-➕ Add tasks with real-time validation
+A simple and interactive Todo List App built with HTML, CSS, and JavaScript to practice DOM manipulation and event handling.
 
-✅ Mark complete with visual feedback (strikethrough)
+✨ Key Features
 
-✏️ Edit tasks inline with save/cancel options
+➕ Add, edit, and delete tasks
 
-🗑️ Delete tasks individually or all at once
+✅ Mark tasks as completed or pending
 
-📊 Live statistics (Total/Completed/Pending)
+📊 Real-time task statistics
 
-⭐ Bonus Features
-💾 Auto-save to browser's LocalStorage
+🗑️ Clear all tasks with confirmation
+
+💾 Persistent storage using localStorage
 
 📱 Fully responsive design
 
-🎨 Modern UI with gradients & animations
+🛠️ Technologies
 
-⚡ Keyboard shortcuts (Enter to add)
+HTML
 
-📝 Sample tasks on first launch
+CSS
 
-🚫 Smart button (disabled when empty)
+JavaScript (DOM & Events)
 
-🎯 Quick Start
-Clone or download the files
+🚀 How to Run
 
-Open index.html in any browser
+Clone or download the project
 
-Start organizing your tasks!
+Open index.html in a browser
 
-📁 Files
-text
-index.html    → Main structure
-style.css     → Styling & animations
-script.js     → All functionality
-🎨 Design Highlights
-Purple gradient theme with smooth transitions
+🎓 Academic Purpose
 
-Card-based layout with shadows
+This project demonstrates core front-end concepts including DOM manipulation, event handling, and client-side data storage.
 
-Hover effects on all interactive elements
+👨‍💻 Author
 
-Mobile-first responsive design
-
-🔧 Tech Stack
-HTML – Semantic structure
-
-CSS – Flexbox, transitions, gradients
-
-JavaScript – DOM manipulation, LocalStorage API
-
-Font Awesome – Icons
-
-Google Fonts – Poppins typography
-
-📱 Live Demo
-Simply open index.html in your browser – no setup required!
-
-💡 Learning Outcomes
-Perfect for mastering:
-
-DOM manipulation
-
-Event handling
-
-LocalStorage API
-
-Responsive design
-
-Modern CSS techniques
-
+Kebek G. – SE Student
